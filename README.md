@@ -47,3 +47,15 @@ Input tags: _carpe-diem, educational, learning, inspirational_
 
 Output quote: 
 > "Do not let your schooling interfere with your education."
+
+## Using the Fine-Tuned Model
+The fine-tuned LLaMA-3.1-8B model has been uploaded to Hugging Face and can be accessed using this [link](https://huggingface.co/sidd-py/llama3.1-8b-fine-tuned).
+
+To load and use this model, you can refer to this [notebook](Using_fine_tuned_llama_model.ipynb).
+The notebook demonstrates how to:
+
+- Load the fine-tuned model using Unsloth
+- Format the input in the required Alpaca-style prompt
+- Generate quotes based on the provided tags
+
+To generate quotes for different topics, simply replace the input in the last cell with your desired set of tags.
